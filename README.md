@@ -128,7 +128,7 @@ This project generated 10 key reports, each addressing specific business questio
 
 ### 7. Top N Products in Each Division by Sold Quantity for FY 2021
 **Report Description:** This report identifies the top N products within each division based on their sold quantity for the fiscal year 2021. The goal is to analyze and rank products within each division according to their sales performance. This information helps in understanding the top-performing products and aids in inventory management and strategic planning.
-[View Report](#) <!-- Replace '#' with the actual link to the report file -->
+[View Report](https://github.com/Madiha41/SQL-Project-Finance-Supply-Chain-Domine/blob/main/top_n_products_by_division.csv) <!-- Replace '#' with the actual link to the report file -->
 
 ### 8. Top N Markets by Region by Gross Sales for FY 2021
 **Report Description:** This report identifies the top N markets within each region based on their gross sales for the fiscal year 2021. The aim is to highlight the leading markets in terms of gross sales within each region, providing insights into regional sales performance and market contributions.
