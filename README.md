@@ -140,7 +140,7 @@ This project generated 10 key reports, each addressing specific business questio
 
 ### 10. Forecast Accuracy for All Customers: FY 2020 vs. FY 2021
 **Report Description:** This report compares the forecast accuracy for all customers between fiscal years 2020 and 2021. It identifies customers whose forecast accuracy has dropped from 2020 to 2021, providing insights into changes in forecast performance.
-[View Report](#) <!-- Replace '#' with the actual link to the report file -->
+[View Report](https://github.com/Madiha41/SQL-Project-Finance-Supply-Chain-Domine/blob/main/forecast_accuracy_pct_2020_vs_2021.csv) <!-- Replace '#' with the actual link to the report file -->
 
 
 
