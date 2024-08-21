@@ -28,3 +28,64 @@ This project focuses on analyzing AtliQ Hardware's performance in two critical a
 
 ## Project Methodology
 The project was managed using the Kanban Agile methodology, implemented through JIRA Software. This approach facilitated continuous delivery, flexibility, and efficient task management.
+
+## Data Sources
+While the actual datasets are not included due to privacy restrictions, the data used in this project includes customer, product, sales, and financial data imported from CSV files into a MySQL database.
+
+### Primary Tables:
+- **DimCustomer:** Customer information.
+- **DimDate:** Date details.
+- **DimProduct:** Product information.
+- **FactActuals:** Actual sales data.
+- **FactSalesMonthly:** Monthly sales data.
+- **Estimate:** Table created for forecast accuracy calculation.
+- **FactGrossPrice, FactManufacturingCost, FactPreInvoiceDeduction, FactPostInvoiceDeduction:** Tables for detailed financial data.
+
+## Techniques Used
+To efficiently manage and analyze the data, the following SQL techniques were utilized:
+
+### User-Defined Functions:
+- **GetFiscalYear():** Custom function to derive the fiscal year based on the calendar date.
+
+### Common Table Expressions (CTEs):
+- Used to simplify complex queries by breaking them into manageable parts.
+
+### Data Views (Virtual Tables):
+- Employed to create virtual tables for intermediate calculations, reducing the need for physical table storage.
+
+### Temporary Tables:
+- Utilized for holding intermediate results during complex operations.
+
+### Window Functions:
+- Applied for operations like ranking and aggregations over partitions of data (`OVER` clause).
+
+### Stored Procedures:
+- **Top-N Reports:** Created stored procedures for generating reports related to top customers, markets, products, etc. These procedures streamline the process for generating these insights.
+
+## **Challenges and Solutions**
+
+### **1. Performance Optimization for Top Market Product Customers**
+- **Challenge:** Initial queries for top market product customers by fiscal year were slow due to the repetitive use of the fiscal year function.
+- **Solution:** The issue was resolved by creating a calculated fiscal year column in the `FactSalesMonthly` table, reducing query time from 8 seconds to 2 seconds.
+
+### **2. Forecast Accuracy Calculation**
+- **Challenge:** Complex calculations involving multiple financial deductions and sales data were challenging to manage without impacting performance.
+- **Solution:** Utilized temporary tables and data views to streamline calculations, followed by stored procedures to generate forecast accuracy reports efficiently.
+
+## **Reports**
+
+This project generated 10 key reports, each addressing specific business questions related to the supply chain and finance functions. The reports are generated using SQL scripts, and the resulting CSV files are provided:
+
+1. **Top Market Product Customer Report**
+2. **Forecast Accuracy Report**
+3. **Gross Sales Yearly Report**
+4. **Net Sales Report**
+5. **Customer Sales Trends Report**
+6. **Product Performance Report**
+7. **Market Share Analysis Report**
+8. **Supply Chain Efficiency Report**
+9. **Financial Yearly Summary Report**
+10. **Top-N Customer Report**
+
+Each report's SQL script and corresponding CSV file are included in the repository.
+
