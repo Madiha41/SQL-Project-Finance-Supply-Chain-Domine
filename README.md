@@ -101,7 +101,7 @@ This project generated 10 key reports, each addressing specific business questio
 
 ### 3. Gross Yearly Total Sales Report for Croma
 **Report Description:** This report provides an aggregated view of the total gross sales amount for Croma India customers on a yearly basis. It is intended to offer insights into the overall annual sales performance, facilitating better strategic decisions and relationship management with AtliQ.
-[View Report](#) <!-- Replace '#' with the actual link to the report file -->
+[View Report](https://github.com/Madiha41/SQL-Project-Finance-Supply-Chain-Domine/blob/main/Gross%20Yearly%20Total%20Sales%20Report%20for%20Croma.csv) <!-- Replace '#' with the actual link to the report file -->
 
 ### 4. Top Markets, Products, and Customers for a Given Financial Year
 **Report Description:** This set of reports is designed to provide a comprehensive view of the top-performing markets, products, and customers based on net sales for a given financial year. These insights are crucial for assessing financial performance, identifying key areas for growth, and addressing potential issues.
