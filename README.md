@@ -124,7 +124,7 @@ This project generated 10 key reports, each addressing specific business questio
 
 ### 6. Net Sales Percentage Share Global
 **Report Description:** This report presents the percentage share of net sales for the top 10 markets globally for the financial year 2021. It provides a clear view of how different markets contribute to the overall net sales, allowing for strategic decision-making and performance analysis. The results will be visualized using a bar chart to highlight the top markets based on their percentage share of global net sales.
-[View Report](#) <!-- Replace '#' with the actual link to the report file -->
+[View Report](https://github.com/Madiha41/SQL-Project-Finance-Supply-Chain-Domine/blob/main/net_sales_global_market_share%25.pdf) <!-- Replace '#' with the actual link to the report file -->
 
 ### 7. Top N Products in Each Division by Sold Quantity for FY 2021
 **Report Description:** This report identifies the top N products within each division based on their sold quantity for the fiscal year 2021. The goal is to analyze and rank products within each division according to their sales performance. This information helps in understanding the top-performing products and aids in inventory management and strategic planning.
