@@ -116,7 +116,7 @@ This project generated 10 key reports, each addressing specific business questio
 
 - **Report for Top Customers:**
   - **Description:** Provides insights into the top 5 customers based on net sales for the specified financial year. This report is useful for managing key customer relationships and understanding customer contribution to revenue.
-  [View Report](#) <!-- Replace '#' with the actual link to the report file -->
+  [View Report](https://github.com/Madiha41/SQL-Project-Finance-Supply-Chain-Domine/blob/main/top_n_customers_by_netsales.csv) <!-- Replace '#' with the actual link to the report file -->
 
 ### 5. Net Sales Percentage Share by Region
 **Report Description:** This report provides a breakdown of net sales by region and customer, presenting the percentage share of net sales within each region. The goal is to perform a regional analysis of financial performance and understand the contribution of different customers to the net sales in each region. This analysis will be visualized using bar charts for the financial year 2021 and will be designed as a reusable asset for any financial year.
