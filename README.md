@@ -120,7 +120,7 @@ This project generated 10 key reports, each addressing specific business questio
 
 ### 5. Net Sales Percentage Share by Region
 **Report Description:** This report provides a breakdown of net sales by region and customer, presenting the percentage share of net sales within each region. The goal is to perform a regional analysis of financial performance and understand the contribution of different customers to the net sales in each region. This analysis will be visualized using bar charts for the financial year 2021 and will be designed as a reusable asset for any financial year.
-[View Report](#) <!-- Replace '#' with the actual link to the report file -->
+[View Report](https://github.com/Madiha41/SQL-Project-Finance-Supply-Chain-Domine/blob/main/Regional_Market_Share%25_By_Customers.pdf) <!-- Replace '#' with the actual link to the report file -->
 
 ### 6. Net Sales Percentage Share Global
 **Report Description:** This report presents the percentage share of net sales for the top 10 markets globally for the financial year 2021. It provides a clear view of how different markets contribute to the overall net sales, allowing for strategic decision-making and performance analysis. The results will be visualized using a bar chart to highlight the top markets based on their percentage share of global net sales.
