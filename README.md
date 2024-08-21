@@ -1,15 +1,26 @@
 # Finance and Supply Chain Analysis - AtliQ Hardware
 
 ## Overview
-AtliQ Hardware is a leading global manufacturing company specializing in electronic peripherals such as mice, keyboards, and other devices. The company operates through three primary distribution channels: retail partnerships, direct channels (AtliQ Exclusive stores and e-Stores), and distributors in regulated regions like China and South Korea. This strategy allows AtliQ to maintain a robust global presence across both traditional and digital platforms.
+AtliQ Hardware is a leading global manufacturing company specializing in electronic peripherals such as mice, keyboards, and other devices. The company operates through three primary distribution channels: retail partnerships, direct channels (AtliQ Exclusive stores and e-stores), and distributors in regulated regions like China and South Korea. This strategy allows AtliQ to maintain a robust global presence across both traditional and digital platforms.
 
-## Problem Statement
+## **Table of Contents**
+- [Problem Statement](#problem-statement)
+- [Project Overview](#project-overview)
+- [Key Areas of Focus](#key-areas-of-focus)
+- [Data Sources](#data-sources)
+- [Techniques Used](#techniques-used)
+- [Challenges and Solutions](#challenges-and-solutions)
+- [Reports](#reports)
+- [License](#license)
+- [Contact](#contact)
+
+## **Problem Statement**
 As AtliQ Hardware expanded globally, the company faced significant data management challenges. Initially relying on Excel, the company struggled with large datasets, leading to frequent crashes and operational disruptions. A transition to MySQL was implemented to manage the growing data effectively and support the company's expansion.
 
-## Project Overview
+## **Project Overview**
 This project focuses on analyzing AtliQ Hardware's performance in two critical areas: Finance and Supply Chain. The objective is to generate insightful reports that assist stakeholders in making informed decisions related to profitability, product sales, and operational efficiency.
 
-## Key Areas of Focus
+## **Key Areas of Focus**
 
 ### Finance Domain:
 - **Profit and Loss Statements:** Assess overall financial health.
@@ -29,7 +40,7 @@ This project focuses on analyzing AtliQ Hardware's performance in two critical a
 ## Project Methodology
 The project was managed using the Kanban Agile methodology, implemented through JIRA Software. This approach facilitated continuous delivery, flexibility, and efficient task management.
 
-## Data Sources
+## **Data Sources**
 While the actual datasets are not included due to privacy restrictions, the data used in this project includes customer, product, sales, and financial data imported from CSV files into a MySQL database.
 
 ### Primary Tables:
@@ -41,7 +52,7 @@ While the actual datasets are not included due to privacy restrictions, the data
 - **Estimate:** Table created for forecast accuracy calculation.
 - **FactGrossPrice, FactManufacturingCost, FactPreInvoiceDeduction, FactPostInvoiceDeduction:** Tables for detailed financial data.
 
-## Techniques Used
+## **Techniques Used**
 To efficiently manage and analyze the data, the following SQL techniques were utilized:
 
 ### User-Defined Functions:
@@ -89,3 +100,13 @@ This project generated 10 key reports, each addressing specific business questio
 
 Each report's SQL script and corresponding CSV file are included in the repository.
 
+## **License**
+
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
+
+## **Contact**
+
+For any inquiries or collaboration opportunities, feel free to connect with me:
+
+- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/your-linkedin-profile/)
+- **Portfolio Website:** [Your Portfolio](https://www.your-portfolio-website.com/)
