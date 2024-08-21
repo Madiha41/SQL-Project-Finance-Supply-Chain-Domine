@@ -112,7 +112,7 @@ This project generated 10 key reports, each addressing specific business questio
 
 - **Report for Top Products:**
   - **Description:** Lists the top 5 products based on net sales for the given financial year. This report helps in identifying the most successful products and understanding their contribution to overall revenue.
-  [View Report](#) <!-- Replace '#' with the actual link to the report file -->
+  [View Report](https://github.com/Madiha41/SQL-Project-Finance-Supply-Chain-Domine/blob/main/top_n_products_by_netsales.csv) <!-- Replace '#' with the actual link to the report file -->
 
 - **Report for Top Customers:**
   - **Description:** Provides insights into the top 5 customers based on net sales for the specified financial year. This report is useful for managing key customer relationships and understanding customer contribution to revenue.
